@@ -12,4 +12,4 @@ for(y of item)
     
    
 }
-console.log(item.join(" ", y));
+console.log(item.join(y));
