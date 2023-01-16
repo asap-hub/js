@@ -11,4 +11,4 @@ var myObject = {
 }
 
 console.table(myObject);
-console.log(myObject.gender.male);
+console.log(myObject.gender["male"]);
