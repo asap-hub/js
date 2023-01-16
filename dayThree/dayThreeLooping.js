@@ -1,10 +1,15 @@
-const arr = ["Western North","Western Region", "Ashanti region", "Greater Accra"];
+const arr = ["Western North","Western Region", "Ashanti region", "Greater Accra", 203];
 
 for(let i = 0; i < arr.length; i++){
     console.log(arr[i]);
 }
+var result = arr.forEach((s) => {
+    console.log(s);
+}); 
 
 for(let ar of arr){
+    if(typeof ar !== "string") continue
+
     console.log(ar);
 }
 
