@@ -3,9 +3,6 @@ body {
   justify-content: center;
   align-items: center;
   display: flex; 
-  /* border: 1px solid black; */
-  /* margin: 10px;
-    margin-top: 10px; */
   padding: 10px;
 }
 
@@ -16,15 +13,16 @@ body {
   background-color: rgb(245, 200, 142);
 }
 
+.button-div,
 .button-me {
-  display: flex;
   align-items: center;
   justify-content: center;
-  width: 70px;
-  height: 20px;
-  border-radius: 3px;
-  background-color: rgb(10, 39, 10);
-  color: white;
+  gap: 5px;
+  width: 100px;
+  margin: auto;
+  border-radius: 3px; 
+  color: black;
+  display: flex;
 }
 
 #fName,
@@ -35,8 +33,8 @@ body {
   border-radius: 4px;
 }
 
-
-th,td {
-    border: 1px solid black;
-    width: 100px; 
+th,
+td {
+  border: 1px solid black;
+  width: 100px;
 }

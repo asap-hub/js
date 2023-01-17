@@ -11,34 +11,36 @@
 
 <body>
   <div class="main-Div">
+
     <div class="first-div">
-      <form>
+      <form id="carForm">
         <label for="fName"> First Name::</label> <br>
         <input type="text" id="fName" name="fName" placeholder="input first name "> <br><br>
         <label for="lName"> Last Name::</label> <br>
         <input type="text" id="lName" name="lName" placeholder="input other name"> <br> <br>
         <label for="age"> Age::</label> <br>
-        <input type="text" id="age" name="age" placeholder="age">
-
-      </form> <br>
-
+        <input type="text" id="age" name="age" placeholder="age"><br> <br>
+      </form> 
     </div>
-    <hr>
-    <div class="button-div">
-      <button type="submit" class="button-me"> submit</button>
-    </div>
-    <hr>
+<hr> 
+        <div class="button-div">
+          <button type="submit" class="button-me"> submit</button>  
+          <button type="Get" class="button-me"> Retrieve</button> 
+          <button type="Remove" class="button-me"> Remove</button> 
+          <button type="clear" class="button-me"> clear</button>
+        </div>
+<hr>
     <div class="display-tag">
       <table class="table">
         <tr>
-          <th>First Name</th>
-          <th>Other Name</th>
-          <th>Age</th>
+          <th id="fn">First Name</th>
+          <th id="sn">Other Name</th>
+          <th id="ag">Age</th>
         </tr>
         <tr>
-          <th>Asap</th>
-          <th>Dasty</th>
-          <th>19</th>
+          <td>Asap</td >
+          <td>Dasty</td >
+          <td>19</td >
         </tr>
       </table>
     </div>
