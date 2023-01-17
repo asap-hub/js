@@ -1,0 +1,42 @@
+body {
+  background-color: rgb(235, 232, 228);
+  justify-content: center;
+  align-items: center;
+  display: flex; 
+  /* border: 1px solid black; */
+  /* margin: 10px;
+    margin-top: 10px; */
+  padding: 10px;
+}
+
+.first-div {
+  border: 1px solid black;
+  padding: 10px;
+  margin-bottom: 5px;
+  background-color: rgb(245, 200, 142);
+}
+
+.button-me {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70px;
+  height: 20px;
+  border-radius: 3px;
+  background-color: rgb(10, 39, 10);
+  color: white;
+}
+
+#fName,
+#lName,
+#age {
+  width: 400px;
+  height: 25px;
+  border-radius: 4px;
+}
+
+
+th,td {
+    border: 1px solid black;
+    width: 100px; 
+}
