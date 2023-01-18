@@ -13,8 +13,7 @@ body {
   background-color: rgb(245, 200, 142);
 }
 
-.button-div,
-.button-me {
+.button-div {
   align-items: center;
   justify-content: center;
   gap: 5px;

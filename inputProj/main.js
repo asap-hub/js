@@ -1,4 +1,5 @@
 let submitMe = document.querySelector(".button-me"); 
+let getData = document.querySelector("#get-button");
 
 
 //get data
@@ -7,7 +8,8 @@ let submitMe = document.querySelector(".button-me");
 // let getage = document.getElementById("#ag");
  
 
- 
+  submitMe.addEventListener('click', () => (sendData()));
+
     function sendData() {
 
         var firstName = document.getElementById('fName').value;
@@ -27,11 +29,19 @@ let submitMe = document.querySelector(".button-me");
     
       
     }
-  
-   let btn = submitMe.addEventListener('click', () =>(sendData()));
+
+getData.addEventListener('click', () => (retrieveData()));
+    function retrieveData(){
+
+        console.log('retrieve data');
+
+        var records = window.sessionStorage.getItem('car');
+        var paragraph = document.createElement("p");
+        var infor = document.createTextNode(records);
+        paragraph.appendChild(infor);
+        var element = document.getElementById("table");
+        element.appendChild(paragraph);
+    };
  
-    // window.onload = function(){
-    //     document.getElementById('carForm').onsubmit = sendData;
-        
-    // }
+    
  
