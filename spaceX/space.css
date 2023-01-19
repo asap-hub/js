@@ -1,0 +1,43 @@
+body{
+background: url(./Images/space_icon.jpg) top left/auto  auto no-repeat;
+width: 100%;
+ /* color: white;
+ display: flex;
+ padding-left: 10px;
+ font-size: 18px; */
+ font-family: 'Rochester', cursive;
+}
+
+.first-div{
+    text-align: center; 
+    display: block; 
+    font-family: inherit; 
+    justify-content: center;
+    color: white;
+}
+
+.second-div{
+    margin: 120px 0px 0px -90px;
+}
+
+.button{
+    background: white;
+    background-color: white
+}
+#space-span{
+    border-bottom: 4px solid white;
+}
+
+#logo{
+    display: flex;
+    width:100px;
+    height: 50px;  
+    align-content: right;
+}
+
+#join-us{
+    text-align: center;
+}
+ 
+
+ 
