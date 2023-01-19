@@ -1,13 +1,16 @@
 body{
     min-height: 100%;
+    align-items: center;
+    justify-content: center;
 }
 
 .image {
     width: 500px;
     align-content: center;
-    display: flex; 
+    display: block; 
     margin-left: auto;
     margin-right: auto;
+    margin-top: 80px;
 
 }
 
@@ -15,6 +18,7 @@ body{
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 10px;
     width: 500px;
     height: 30px;
     border-radius: 10px;
@@ -26,12 +30,14 @@ body{
     display: flex; 
     justify-content: center;
     gap: 10px;
+   
 }
 
-#f-button:hover, #s-button:hover{ 
+#f-button:hover , #s-button:hover { 
     border-color: none;
+    background: rgb(227, 227, 227);
     height: 30px;
-    width: auto; 
+    width: auto;  
 }
 
 .googe-offer{
@@ -58,6 +64,10 @@ body{
     padding: 10px 10px 10px 10px;
     justify-content: center;
     align-items: center;
+    padding-top: auto; 
+    text-align: center;
+    padding-left: auto;
+    margin-bottom: 20px;
 }
 
 #c-location{
@@ -65,6 +75,14 @@ body{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: bold;
     font-style: italic;
+}
+#link-5{
+    display: inline;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+     
+    color:rgb(47, 16, 198);
 }
 
  
