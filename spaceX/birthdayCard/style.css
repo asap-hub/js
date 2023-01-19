@@ -71,6 +71,9 @@ body {
 
 .first-gift:hover {
   background-image: url("./image/giphy.webp");
+  padding-right: 100px;
+  width: 100px;
+
 }
 
 #h-line{
@@ -80,10 +83,14 @@ body {
 
 #people-reaction:hover{
     background-image: url("./image/people_reaction.webp");
+    align-items: center;
+    padding-right: 100px;
+    padding-bottom: 50px;
 }
 
 .fourth-gift:hover{
     background-image: url("./image/amazing.webp");
+    align-items: center;
    padding-right: 100px;
     
 }
